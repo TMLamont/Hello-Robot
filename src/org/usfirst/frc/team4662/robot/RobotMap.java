@@ -16,8 +16,21 @@ public class RobotMap {
     // public static int rangefinderPort = 1;
     // public static int rangefinderModule = 1;
 	
+	
+//
 	public static final int MOTOR1 = 0;
+
+	
+//	
 	public static final int MOTOR_STICK_PORT = 0;
 	
-	
+//	
+	public static int iArmHomeLocSw = 2;
+    public static int iArmBotLimSw = 1;
+    public static int iArmTopLimSw = 0;
+    
+    
+    public static void init(){    	
+    	
+    }	
 }

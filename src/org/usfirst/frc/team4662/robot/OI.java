@@ -2,7 +2,10 @@ package org.usfirst.frc.team4662.robot;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.Button;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+
 import org.usfirst.frc.team4662.robot.commands.ExampleCommand;
+import org.usfirst.frc4662.KnightByte.commands.AutonomousCommand;
 
 /**
  * This class is the glue that binds the controls on the physical operator
@@ -44,6 +47,9 @@ public class OI {
 	public OI() {
 		 drivestick = new Joystick(RobotMap.MOTOR_STICK_PORT);
 	}
+	
+	
+	
 	
 }
 
