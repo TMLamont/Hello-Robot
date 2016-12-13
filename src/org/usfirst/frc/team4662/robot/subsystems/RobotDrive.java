@@ -34,6 +34,13 @@ public class RobotDrive extends Subsystem {
 //    	logArm();
     	Dashboard(speed);
     }
+  
+  public void stopArm(){
+	  moveArm(0);
+	  
+  }
+  
+  
 
   private final DigitalInput homeLocSw = new DigitalInput(RobotMap.iArmHomeLocSw);
   private final DigitalInput scoopLimSw = new DigitalInput(RobotMap.iArmBotLimSw);

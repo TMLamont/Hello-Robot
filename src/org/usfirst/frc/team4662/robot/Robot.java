@@ -8,8 +8,6 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import org.usfirst.frc.team4662.robot.commands.ExampleCommand;
 import org.usfirst.frc.team4662.robot.subsystems.ExampleSubsystem;
 import org.usfirst.frc.team4662.robot.subsystems.RobotDrive;
-import org.usfirst.frc4662.ArmSystem.subsystems.ArmLinearActuator;
-
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
@@ -22,8 +20,8 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
  */
 public class Robot extends IterativeRobot {
 
-	public static final ExampleSubsystem exampleSubsystem;
-	public static final RobotDrive robotDrive;
+	public static ExampleSubsystem exampleSubsystem;
+	public static RobotDrive robotDrive;
 	public static OI oi;
 //	public static RobotDrive robotDrive;
     Command autonomousCommand;
